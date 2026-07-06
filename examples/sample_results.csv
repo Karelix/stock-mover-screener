@@ -1,0 +1,3 @@
+symbol,final_label,confidence,summary,premarket_move_pct,mover_score,liquidity_score,fundamental_level,fundamental_score,dilution_level,dilution_score,catalyst_category,weak_catalyst_score,hype_level,hype_score,squeeze_level,squeeze_score
+HYPE,Too Dangerous,95,Too Dangerous: 20.0% pre-market move; thesis score 12; squeeze risk extreme.,20.0,210.0,81.44,high,14,high,20,weak,12,high,18,extreme,29
+SOLID,Likely Real Catalyst,75,Likely Real Catalyst: 16.7% pre-market move; thesis score -4; squeeze risk low.,16.666666666666664,205.0,94.62,low,0,low,0,strong,0,low,0,low,0

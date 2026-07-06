@@ -1,0 +1,24 @@
+{
+  "name": "hype_attention_score",
+  "description": "Step 7 provider-agnostic scoring for crowd attention and hype amplification.",
+  "thresholds": {
+    "moderate_score": 4,
+    "high_score": 8,
+    "abnormal_social_mentions_ratio": 3.0,
+    "abnormal_headline_count_ratio": 3.0,
+    "high_headline_count": 3,
+    "low_float_shares": 20000000,
+    "strong_premarket_move_pct": 20.0
+  },
+  "points": {
+    "meme_keywords": 3,
+    "social_attention": 3,
+    "short_squeeze_language": 3,
+    "buzzword_theme": 2,
+    "abnormal_headline_velocity": 2,
+    "multiple_same_day_headlines": 1,
+    "retail_trader_language": 2,
+    "low_float_hype": 2,
+    "attention_driven_move": 2
+  }
+}

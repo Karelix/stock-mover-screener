@@ -1,0 +1,40 @@
+{
+  "name": "premarket_short_candidate_universe",
+  "description": "Base universe for pre-market upside movers. Biotech is intentionally included.",
+  "include_biotech": true,
+  "filters": {
+    "allowed_countries": ["US"],
+    "allowed_security_types": ["common_stock", "common", "cs"],
+    "min_price": 3.0,
+    "min_market_cap": 100000000,
+    "min_average_dollar_volume": 5000000
+  },
+  "excluded_security_types": [
+    "adr",
+    "closed_end_fund",
+    "cef",
+    "etf",
+    "fund",
+    "preferred",
+    "preferred_stock",
+    "right",
+    "unit",
+    "warrant"
+  ],
+  "excluded_symbol_patterns": [
+    ".P",
+    ".PR",
+    ".R",
+    ".U",
+    ".W",
+    ".WS",
+    "-P",
+    "-PR",
+    "-R",
+    "-U",
+    "-W",
+    "-WS",
+    " PR",
+    " WS"
+  ]
+}

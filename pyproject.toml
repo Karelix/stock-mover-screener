@@ -1,0 +1,25 @@
+[project]
+name = "stock-mover-screener"
+version = "0.1.0"
+description = "Pre-market short-candidate screener for overextended stock movers."
+requires-python = ">=3.11"
+
+[project.scripts]
+stock-mover-screener = "stock_mover_screener.cli:main"
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.37"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

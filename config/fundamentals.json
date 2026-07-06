@@ -1,0 +1,24 @@
+{
+  "name": "fundamental_weakness_score",
+  "description": "Step 4 provider-agnostic scoring for weak fundamentals. Missing data produces warnings, not exclusions.",
+  "thresholds": {
+    "moderate_score": 4,
+    "high_score": 8,
+    "weak_current_ratio": 1.0,
+    "high_debt_to_equity": 2.0,
+    "low_cash_runway_years": 1.0,
+    "min_meaningful_revenue": 1000000,
+    "high_price_to_sales": 20.0
+  },
+  "points": {
+    "negative_net_income": 2,
+    "negative_operating_cash_flow": 2,
+    "negative_free_cash_flow": 2,
+    "declining_revenue_yoy": 1,
+    "weak_current_ratio": 1,
+    "high_debt_to_equity": 1,
+    "low_cash_runway": 2,
+    "no_meaningful_revenue": 2,
+    "high_price_to_sales": 1
+  }
+}

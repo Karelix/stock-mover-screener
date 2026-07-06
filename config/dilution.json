@@ -1,0 +1,24 @@
+{
+  "name": "dilution_risk_score",
+  "description": "Step 5 provider-agnostic scoring for dilution and capital-raise risk. Missing data produces warnings, not exclusions.",
+  "thresholds": {
+    "moderate_score": 4,
+    "high_score": 8,
+    "large_share_growth_pct": 20.0,
+    "repeated_offering_count": 2
+  },
+  "points": {
+    "active_shelf_registration": 3,
+    "recent_offering": 3,
+    "s1_s3_registration": 2,
+    "prospectus_supplement": 2,
+    "atm_offering": 2,
+    "registered_direct_offering": 2,
+    "private_placement": 2,
+    "warrants_outstanding": 2,
+    "convertible_debt": 2,
+    "equity_line": 2,
+    "large_share_growth": 2,
+    "repeated_offering_history": 2
+  }
+}

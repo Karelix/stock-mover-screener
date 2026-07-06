@@ -1,0 +1,12 @@
+{
+  "name": "premarket_upside_mover_scan",
+  "description": "Step 2 scan for stocks with abnormal upside moves before the regular session opens.",
+  "filters": {
+    "min_premarket_move_pct": 10.0,
+    "min_gap_pct": 8.0,
+    "min_premarket_dollar_volume": 1000000,
+    "min_relative_volume": 2.0,
+    "min_atr_adjusted_move": 2.0,
+    "require_positive_move": true
+  }
+}

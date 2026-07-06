@@ -1,0 +1,59 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging output
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local market-data caches and generated exports
+/data/
+/output/
+/outputs/
+/exports/
+/tmp/
+/results*.csv
+/screener_results*.csv
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local agent state
+.agents/
+.codex/

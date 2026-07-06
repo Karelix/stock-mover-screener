@@ -1,0 +1,19 @@
+{
+  "name": "premarket_candidate_labels",
+  "description": "Step 9 final pre-market labels. Labels summarize the scores but do not discard underlying details.",
+  "thresholds": {
+    "prime_watch_thesis_score": 8,
+    "watch_only_thesis_score": 5,
+    "needs_more_data_unknown_layers": 3,
+    "likely_real_catalyst_max_thesis_score": 4
+  },
+  "confidence": {
+    "base": 35,
+    "known_layer_points": 8,
+    "thesis_score_points": 3,
+    "danger_score_points": 2,
+    "missing_layer_penalty": 10,
+    "minimum": 20,
+    "maximum": 95
+  }
+}

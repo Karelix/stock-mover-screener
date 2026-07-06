@@ -1,0 +1,15 @@
+{
+  "name": "premarket_liquidity_filter",
+  "description": "Step 3 liquidity screen for pre-market mover candidates. Low float is flagged, not excluded.",
+  "filters": {
+    "min_premarket_volume": 50000,
+    "min_premarket_dollar_volume": 1000000,
+    "min_average_dollar_volume": 5000000,
+    "max_spread_pct": 3.0,
+    "allow_missing_spread": true
+  },
+  "risk_flags": {
+    "low_float_shares": 20000000,
+    "very_low_float_shares": 10000000
+  }
+}

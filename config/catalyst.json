@@ -1,0 +1,30 @@
+{
+  "name": "catalyst_quality_classifier",
+  "description": "Step 6 provider-agnostic catalyst classification for pre-market movers.",
+  "thresholds": {
+    "weak_score": 3,
+    "medium_score": 2,
+    "strong_score": 3
+  },
+  "points": {
+    "earnings_guidance": 4,
+    "acquisition_buyout": 5,
+    "fda_approval": 4,
+    "material_contract": 3,
+    "debt_refinancing": 3,
+    "profitability_inflection": 3,
+    "analyst_upgrade": 2,
+    "product_launch": 2,
+    "detailed_partnership": 2,
+    "sector_sympathy": 1,
+    "vague_ai": 2,
+    "crypto_blockchain": 2,
+    "non_binding_loi": 3,
+    "unnamed_partner": 2,
+    "no_financial_terms": 2,
+    "strategic_alternatives": 2,
+    "social_media_meme": 3,
+    "old_news": 2,
+    "short_squeeze": 3
+  }
+}

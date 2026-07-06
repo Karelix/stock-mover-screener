@@ -1,0 +1,37 @@
+{
+  "name": "squeeze_shortability_risk",
+  "description": "Step 8 provider-agnostic danger scoring for squeeze and shortability risk.",
+  "thresholds": {
+    "moderate_score": 4,
+    "high_score": 8,
+    "extreme_score": 12,
+    "low_float_shares": 20000000,
+    "very_low_float_shares": 10000000,
+    "high_short_interest_pct": 20.0,
+    "extreme_short_interest_pct": 40.0,
+    "high_days_to_cover": 5.0,
+    "high_borrow_fee_pct": 20.0,
+    "extreme_borrow_fee_pct": 80.0,
+    "low_borrow_available_shares": 100000,
+    "extreme_premarket_move_pct": 50.0,
+    "high_hype_score": 8,
+    "high_call_volume_ratio": 3.0,
+    "repeated_halts_count": 2
+  },
+  "points": {
+    "very_low_float": 4,
+    "low_float": 2,
+    "extreme_short_interest": 4,
+    "high_short_interest": 3,
+    "high_days_to_cover": 3,
+    "extreme_borrow_fee": 4,
+    "high_borrow_fee": 3,
+    "hard_to_borrow": 3,
+    "low_borrow_availability": 2,
+    "no_borrow_available": 4,
+    "extreme_premarket_move": 3,
+    "high_hype": 2,
+    "repeated_halts": 3,
+    "call_volume_explosion": 2
+  }
+}
